@@ -116,3 +116,32 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+email = ["tps reports", "Have you seen his staplers?", "We need more flair"]
+
+
+email = [
+  {
+  sender: "jpasko1112@gmail.com",
+  recipient: "bob@gmail.com",
+  subject: "Where's Those TPS REPORTS!",
+  time_stamp: "11:25am",
+  date: "February 22nd, 2023"
+},
+{
+sender: "jpasko@gmail.com",
+recipient: "bob15@gmail.com",
+subject: "Have You Seen My Stapler?",
+time_stamp: "11:45am",
+date: "February 29th, 2022" 
+},
+{
+  sender: "pasko1112@gmail.com",
+  recipient: "heybob@gmail.com",
+  subject: "We Need More FLAIR",
+  time_stamp: "12:15am",
+  date: "February 10th, 2023"
+}
+]
+
+p email

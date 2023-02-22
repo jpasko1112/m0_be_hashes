@@ -48,15 +48,25 @@ p foods.keys
 
 # Write code that prints your email hash to the terminal.
 
+email = {
+  sender: "jpasko1112@gmail.com",
+  recipient: "bob@gmail.com",
+  subject: "Where's Those TPS REPORTS!",
+  time_stamp: "11:25am",
+  date: "February 22nd, 2023"
+}
 
 # Write code that prints all of the 'keys' of the email hash 
 # you created above:
 # YOUR CODE HERE
 
+p email.keys
+
 # Write code that prints all of the 'values' of the email hash 
 # you created above:
 # YOUR CODE HERE
 
+p email.values
 
 #-------------------
 # Part 3: Many Emails - CHALLENGE!
